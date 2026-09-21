@@ -9,11 +9,9 @@ def max_value(numbers):
     for num in numbers:
         if num > max_num:
             max_num = num
-
+#newest comment
     return max_num
 
 #this function helps in finding max_value
-#adding change
-
 if __name__ == "__main__":
     print(max_value([1, 12, 2, 42, 8, 3]))
